@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>Etudora</title>
+  </head>
+  <body>
+    <div class="header-bg">
+      <header>
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg navbar-light sizing">
+            <a class="navbar-brand logo-showing" href="#">
+              <img class="logo-image" src="./images/logo.png" alt="" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="making-justify-content collapse navbar-collapse"
+              id="navbarSupportedContent"
+            >
+              <a class="navbar-brand logo-hiding" href="#">
+                <img class="logo-image" src="./images/logo.png" alt="" />
+              </a>
+              <ul class="navbar-nav mr-auto elements">
+                <li class="nav-item active">
+                  <a class="items nav-link text-white" href="#">Accueil </a>
+                </li>
+                <li class="nav-item active">
+                  <a class="items nav-link text-white" href="#">Prix </a>
+                </li>
+                <li class="nav-item active">
+                  <a class="items nav-link text-white" href="#">Accueil </a>
+                </li>
+                <li class="nav-item active">
+                  <a class="items nav-link text-white" href="#"
+                    >Comment Ça Marche
+                  </a>
+                </li>
+                <li class="nav-item active">
+                  <a class="items nav-link text-white" href="#">FAQ </a>
+                </li>
+                <li class="nav-item active">
+                  <a class="items nav-link text-white" href="#">Contact </a>
+                </li>
+                <li class="nav-item active">
+                  <a class="items nav-link text-white" href="#"
+                    >Devenir Expert
+                  </a>
+                </li>
+                <li class="nav-item active">
+                  <a class="items nav-link text-white" href="#">Connexion</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="items nav-link text-white" href="#"
+                    >Commandez Maintenant
+                  </a>
+                </li>
+              </ul>
+              <div class="header-button d-flex items-center text-white">
+                <img src="./images/phone-icon.png" alt="" />
+                <div>
+                  <h3 class="support">Call Support</h3>
+                  <h1 class="support-no">438-803-9370</h1>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <section class="hero-content container">
+        <div class="spacing">
+          <h1 class="service">Service d’aide aux devoirs pour étudiants</h1>
+          <p class="assistance">
+            Obtenez une assistance personnalisée d'experts dans Tous les
+            domaines académiques.
+          </p>
+          <button class="maintanance">Démarrez maintenant</button>
+        </div>
+        <div>
+          <img class="main-image" src="./images/main-image.png" />
+        </div>
+      </section>
+    </div>
+    <section class="frames">
+      <div class="seperating">
+        <div>
+          <img src="./images/etudora-frame.png" alt="" />
+        </div>
+        <div>
+          <h1 class="numbers">4.8</h1>
+        </div>
+      </div>
+      <div class="seperating">
+        <div>
+          <img src="./images/etudora-frame-2.png" alt="" />
+        </div>
+        <div>
+          <h1 class="numbers">4.9</h1>
+        </div>
+      </div>
+      <div class="seperating">
+        <div>
+          <img src="./images/etudora-frame-3.png" alt="" />
+        </div>
+        <div>
+          <h1 class="numbers">4.7</h1>
+        </div>
+      </div>
+    </section>
+
+    <section class="carousel-section">
+      <h1 class="carousel-header">
+        Avis et commentaires des étudiants qui utilisent et adorent les services
+        d’Etudora
+      </h1>
+      <div class="all-items">
+        <div>
+          <div class="seperating-2">
+            <div>
+              <img src="./images/etudora-frame.png" alt="" />
+            </div>
+            <div>
+              <h1 class="numbers">4.8</h1>
+            </div>
+          </div>
+          <div class="seperating-1">
+            <div>
+              <img src="./images/etudora-frame-2.png" alt="" />
+            </div>
+            <div>
+              <h1 class="numbers">4.9</h1>
+            </div>
+          </div>
+          <div class="seperating-2">
+            <div>
+              <img src="./images/etudora-frame-3.png" alt="" />
+            </div>
+            <div>
+              <h1 class="numbers">4.7</h1>
+            </div>
+          </div>
+        </div>
+
+        <div
+          id="carouselExampleIndicators"
+          data-interval="false"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="flexing">
+                <div>
+                  <div class="stars">
+                    <img
+                      class="stars-img"
+                      src="./images/stars-collection.png"
+                      alt=""
+                    />
+                    <div class="for-line-break"></div>
+                  </div>
+                  <h3 class="excellent">
+                    Excellent travail et très rapide comme d'habitude, avec une
+                    très bonne communication Merci !
+                  </h3>
+                </div>
+                <div class="for-flex">
+                  <div class="carousel-headings">
+                    <div>
+                      <img src="./images/carousel-pic.png" alt="" />
+                    </div>
+                    <div class="arnaud">
+                      <h5>Arnaud Leroux</h5>
+                      <p>12 Nov. 2022. 1640</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="./images/icon-vector.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="flexing">
+                <div>
+                  <div class="stars">
+                    <img
+                      class="stars-img"
+                      src="./images/stars-collection.png"
+                      alt=""
+                    />
+                    <div class="for-line-break"></div>
+                  </div>
+                  <h3 class="excellent">
+                    Excellent travail et très rapide comme d'habitude, avec une
+                    très bonne communication Merci !
+                  </h3>
+                </div>
+                <div class="for-flex">
+                  <div class="carousel-headings">
+                    <div>
+                      <img src="./images/carousel-pic.png" alt="" />
+                    </div>
+                    <div class="arnaud">
+                      <h5>Arnaud Leroux</h5>
+                      <p>12 Nov. 2022. 1640</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="./images/icon-vector.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="flexing">
+                <div>
+                  <div class="stars">
+                    <img
+                      class="stars-img"
+                      src="./images/stars-collection.png"
+                      alt=""
+                    />
+                    <div class="for-line-break"></div>
+                  </div>
+                  <h3 class="excellent">
+                    Excellent travail et très rapide comme d'habitude, avec une
+                    très bonne communication Merci !
+                  </h3>
+                </div>
+                <div class="for-flex">
+                  <div class="carousel-headings">
+                    <div>
+                      <img src="./images/carousel-pic.png" alt="" />
+                    </div>
+                    <div class="arnaud">
+                      <h5>Arnaud Leroux</h5>
+                      <p>12 Nov. 2022. 1640</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="./images/icon-vector.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="prev"
+          >
+            <img src="./images/arrow-left.png" alt="" />
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="next"
+          >
+            <img src="./images/arrow-right.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="travil">
+        <div class="for-radius">
+          <h1>Trouver le prix pour votre travail</h1>
+          <p>There are many variations of passages of Lorem Ipsum available,</p>
+        </div>
+        <div>
+          <button class="prix">Voir les prix</button>
+        </div>
+        <div class="for-gradient"></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="academy container">
+        <h1>Etudora couvre tous vos besoins</h1>
+        <div class="round">
+          <img class="yellow-img" src="./images/yellow-frame.png" alt="" />
+          <h1>academiques</h1>
+        </div>
+        <div class="content">
+          <div class="content-obj">
+            <img src="./images/glas.png" alt="" />
+            <h2>Contenu sans plagiat</h2>
+            <p>
+              Nous suivons une politique anti-plagiat stricte. Nous analysons
+              chaque travail à la recherche de plagiat
+            </p>
+          </div>
+          <div class="content-obj">
+            <img src="./images/clock.png" alt="" />
+            <h2>Livraison à temps</h2>
+            <p>
+              Les informations sur les clients sont confidentielles et ne sont
+              jamais divulguées à des tiers.
+            </p>
+          </div>
+          <div class="content-obj">
+            <img src="./images/diary.png" alt="" />
+            <h2>Rédaction originale</h2>
+            <p>
+              Nous effectuons tous les travaux à partir de zéro. Vous pouvez
+              obtenir un rapport de plagiat.
+            </p>
+          </div>
+          <div class="content-obj">
+            <img src="./images/lock.png" alt="" />
+            <h2>100% Confidentiel</h2>
+            <p>
+              Pas de délais manqués - 99% des devoirs sont terminés à temps.
+            </p>
+          </div>
+        </div>
+        <button>Trouver un expert</button>
+      </div>
+    </section>
+
+    <section class="for-sercices-background">
+      <div class="services container">
+        <h1>Typesde services que nous offrons</h1>
+        <p>Bénéficiez de l'assistance professionnelle de nos experts.</p>
+        <div class="grid-property">
+          <div class="grid-layout">
+            <img src="./images/algebra 1.png" alt="" />
+            <h4>Algèbre</h4>
+          </div>
+          <div class="grid-layout">
+            <img src="./images/copy-writing 1.png" alt="" />
+            <h4>Analyse de texte</h4>
+          </div>
+          <div class="grid-layout">
+            <img src="./images/curriculum-vitae 1.png" alt="" />
+            <h4>Résumé</h4>
+          </div>
+          <div class="grid-layout">
+            <img src="./images/gravity 1.png" alt="" />
+            <h4>Physique</h4>
+          </div>
+          <div class="grid-layout">
+            <img src="./images/books 1.png" alt="" />
+            <h4>Dissertation</h4>
+          </div>
+          <div class="grid-layout">
+            <img src="./images/megaphone 1.png" alt="" />
+            <h4>Marketing</h4>
+          </div>
+          <div class="grid-layout">
+            <img src="./images/proofreading 1.png" alt="" />
+            <h4>Relecture</h4>
+          </div>
+          <div class="grid-layout">
+            <img src="./images/audit 1.png" alt="" />
+            <h4>Audit</h4>
+          </div>
+          <div class="grid-layout">
+            <img src="./images/economy 1.png" alt="" />
+            <h4>Economie</h4>
+          </div>
+          <div class="grid-layout">
+            <img src="./images/biography 1.png" alt="" />
+            <h4>Biographie</h4>
+          </div>
+          <div class="grid-layout">
+            <img src="./images/research-and-development 1.png" alt="" />
+            <h4>Recherche</h4>
+          </div>
+          <div class="grid-layout">
+            <img src="./images/statistics 1.png" alt="" />
+            <h4>Statistique</h4>
+          </div>
+          <div class="grid-layout">
+            <img src="./images/philosophy 1.png" alt="" />
+            <h4>Philosophie</h4>
+          </div>
+          <div class="grid-layout">
+            <img src="./images/capital 1.png" alt="" />
+            <h4>Macroéconomie</h4>
+          </div>
+          <div class="grid-layout">
+            <img src="./images/Group.png" alt="" />
+            <h4>Finance</h4>
+          </div>
+          <div class="grid-layout">
+            <img src="./images/contract 1.png" alt="" />
+            <h4>Rédaction de CV</h4>
+          </div>
+          <div class="grid-layout">
+            <img src="./images/idea 1.png" alt="" />
+            <h4>Management</h4>
+          </div>
+          <div class="grid-layout">
+            <img src="./images/g1389.png" alt="" />
+            <h4>Chimie générale</h4>
+          </div>
+          <div class="grid-layout">
+            <img src="./images/whiteboard 1.png" alt="" />
+            <h4>Mathématique</h4>
+          </div>
+          <div class="grid-layout">
+            <img src="./images/mathematics 1.png" alt="" />
+            <h4>Lettre de motivation</h4>
+          </div>
+          <div class="grid-layout">
+            <img src="./images/mathematics 1.png" alt="" />
+            <h4>Calcul avancé</h4>
+          </div>
+          <div class="grid-layout">
+            <img src="./images/tax 1.png" alt="" />
+            <h4>Comptabilité</h4>
+          </div>
+          <div class="grid-layout">
+            <img src="./images/dashboard 1.png" alt="" />
+            <h4>Anglais</h4>
+          </div>
+          <div class="grid-layout">
+            <img src="./images/report 1.png" alt="" />
+            <h4>Rapport scientifique</h4>
+          </div>
+          <div class="grid-layout">
+            <img src="./images/france 1.png" alt="" />
+            <h4>Français</h4>
+          </div>
+          <div class="grid-layout">
+            <img src="./images/human 1.png" alt="" />
+            <h4>Droit</h4>
+          </div>
+          <div class="grid-layout">
+            <img src="./images/blogger 1.png" alt="" />
+            <h4>Administration</h4>
+          </div>
+          <div class="expert grid-layout">
+            <button class="trouver">Trouver un expert</button>
+          </div>
+          <div class="grid-layout">
+            <img src="./images/argument 1.png" alt="" />
+            <h4>Essai argumentatif</h4>
+          </div>
+
+          <div class="grid-layout">
+            <img src="./images/project-management 1.png" alt="" />
+            <h4>Gestion</h4>
+          </div>
+          <div class="grid-layout">
+            <img src="./images/add 1.png" alt="" />
+            <h4>Autres</h4>
+          </div>
+        </div>
+        <div class="expert-2">
+          <button class="trouver-2">Trouver un expert</button>
+        </div>
+      </div>
+    </section>
+    <div class="comments container">
+      <h1>COMMENT ÇA MARCHE</h1>
+      <p>
+        Nos experts livrent toutes les commandes avant la date prévue. Il suffit
+        de 4 étapes simples pour faire vos travaux personnalisés :
+      </p>
+      <div class="commande">
+        <div class="images-div">
+          <h4>01</h4>
+          <img src="./images/night.png" alt="" />
+          <h2>Remplir votre commande</h2>
+          <p>
+            Soumettez les détails de votre commande avec l'expert (sujet, type
+            de travail, niveau, format, taille et délai).
+          </p>
+        </div>
+        <div class="vector-image">
+          <img src="./images/vector-1.png" alt="" />
+        </div>
+        <div class="images-div for-height">
+          <h4>02</h4>
+          <img src="./images/phone.png" alt="" />
+          <h2>Procéder au paiement</h2>
+          <p>
+            Payez pour notre service de rédaction. Choisissez l'une des méthodes
+            sécurisées disponibles en ligne : PayPal ou carte de débit/crédit
+          </p>
+        </div>
+        <div class="vector-image">
+          <img src="./images/vector-2.png" alt="" />
+        </div>
+        <div class="images-div">
+          <h4>03</h4>
+          <img src="./images/phone-call.png" alt="" />
+          <h2>Communiquez avec votre expert</h2>
+          <p>
+            Contactez l'expert désigné à tout moment pour résoudre différents
+            problèmes et suivez le processus.
+          </p>
+        </div>
+        <div class="vector-image">
+          <img src="./images/vector-1.png" alt="" />
+        </div>
+        <div class="images-div for-height">
+          <h4>04</h4>
+          <img src="./images/bed.png" alt="" />
+          <h2>Obtenez vos travaux finis</h2>
+          <p>
+            Recevez votre travail avant la date limite. Vérifiez la qualité. Les
+            révisions sont possibles pendant 2 semaines après la livraison de la
+            commande.
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer container">
+        <div class="footer-divs">
+          <img src="./images/footer-logo.png" alt="" />
+          <h2>
+            Service d'aide aux devoirs et travaux académiques pour étudiants
+          </h2>
+          <div class="follow">
+            <h4>Follow Us</h4>
+            <img src="./images/fb" alt="" />
+            <img src="./images/twitter.png" alt="" />
+            <img src="./images/linked in.png" alt="" />
+            <img src="./images/insta.png" alt="" />
+          </div>
+        </div>
+        <div class="footer-divs">
+          <h1>Menu Principal</h1>
+          <div class="dot-class">
+            <p><span class="dot"></span>Page d’accueil</p>
+            <p><span class="dot"></span>Prix</p>
+            <p><span class="dot"></span>Comment ça marche</p>
+            <p><span class="dot"></span>FAQ</p>
+            <p><span class="dot"></span>Contact</p>
+            <p><span class="dot"></span>Devenir expert</p>
+          </div>
+        </div>
+        <div class="footer-divs">
+          <h1>Info Juridique</h1>
+          <div class="dot-class">
+            <p><span class="dot"></span>Garantie de remboursement</p>
+            <p><span class="dot"></span>Politique de confidentialité</p>
+            <p><span class="dot"></span>Politique de révision</p>
+            <p><span class="dot"></span>Clause de non-responsabilité</p>
+            <p><span class="dot"></span>Termes et conditions</p>
+          </div>
+        </div>
+        <div class="footer-divs">
+          <h1>24x7 Emergency Call</h1>
+          <div class="number-class">
+            <p class="number">438-803-9370</p>
+            <p class="notre">
+              Notre système de planification et de paiement en ligne est
+              sécurisé.
+            </p>
+            <button>Get A Free Quote</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <section class="footer-section">
+      <div class="payments container">
+        <div class="copy">
+          <img src="./images/copyright.png" alt="" />
+        </div>
+        <div class="random">
+          <h1>Nous Acceptons</h1>
+          <img src="./images/visa.png" alt="" />
+          <img src="./images/discover.png" alt="" />
+          <img src="./images/mastercard.png" alt="" />
+          <img src="./images/paypay.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
